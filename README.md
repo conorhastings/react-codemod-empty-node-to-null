@@ -1,4 +1,7 @@
 # react-codemod-empty-node-to-null
+
+[![Circle CI](https://circleci.com/gh/conorhastings/react-codemod-empty-node-to-null.svg?style=svg)](https://circleci.com/gh/conorhastings/react-codemod-empty-node-to-null)
+
 A codemod to turn your returns of an empty node to null. Staring with `React` 15.0 you can return null from a stateless function component. This codemod will alter all your empty node returns to return null instead.
 
 ## use
