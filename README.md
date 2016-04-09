@@ -5,4 +5,4 @@ A codemod to turn your returns of an empty node to null. Staring with `React` 15
 
 * `npm install jscodeshift -g`
 * `npm install react-style-px-suffix-codemod`
-* run this script with `jscodeshift -t node_modules/react-style-px-suffix-codemod <DIRECTORY_OR_FILE_TO_RUN_ON>`
+* run this script with `jscodeshift -t node_modules/react-codemod-empty-node-to-null <DIRECTORY_OR_FILE_TO_RUN_ON>`
