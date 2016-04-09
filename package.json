@@ -1,0 +1,42 @@
+{
+  "name": "react-codemod-empty-node-to-null",
+  "version": "1.0.0",
+  "description": "turn returns of empty nodes to null now that this is permitted for all react components",
+  "main": "index.js",
+  "scripts": {
+    "test": "f() { EXIT=0; NODE_ENV=test jest $@ || EXIT=$?; exit $EXIT; }; f"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conorhastings/react-codemod-empty-node-to-null.git"
+  },
+  "keywords": [
+    "codemod",
+    "ast",
+    "react",
+    "15",
+    "react-15"
+  ],
+  "author": "Conor Hastings",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/conorhastings/react-codemod-empty-node-to-null/issues"
+  },
+  "homepage": "https://github.com/conorhastings/react-codemod-empty-node-to-null#readme",
+  "devDependencies": {
+    "babel-jest": "^10.0.1",
+    "jest-cli": "^0.10.0",
+    "jscodeshift": "^0.3.19"
+  },
+  "jest": {
+    "setupFiles": [
+      "jest/env.js"
+    ],
+    "globals": {
+      "baseDir": "../"
+    },
+    "testPathDirs": [
+      "test"
+    ]
+  }
+}
