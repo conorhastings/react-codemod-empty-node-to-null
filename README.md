@@ -7,5 +7,5 @@ A codemod to turn your returns of an empty node to null. Staring with `React` 15
 ## use
 
 * `npm install jscodeshift -g`
-* `npm install react-style-px-suffix-codemod`
+* `npm install react-codemod-empty-node-to-null`
 * run this script with `jscodeshift -t node_modules/react-codemod-empty-node-to-null <DIRECTORY_OR_FILE_TO_RUN_ON>`
