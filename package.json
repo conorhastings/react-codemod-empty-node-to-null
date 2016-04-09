@@ -1,6 +1,6 @@
 {
   "name": "react-codemod-empty-node-to-null",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "turn returns of empty nodes to null now that this is permitted for all react components",
   "main": "transform.js",
   "scripts": {
