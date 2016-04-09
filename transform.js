@@ -8,7 +8,7 @@ module.exports = function(file, api, options) {
       const firstLetter = name[0];
       const hasAttributes = ret.value.argument.openingElement.attributes.length;
       const hasChildren = ret.value.argument.children.length;
-      const isDomElement = firstLetter ===firstLetter.toLowerCase();
+      const isDomElement = firstLetter === firstLetter.toLowerCase();
       if (!hasAttributes && !hasChildren && isDomElement) {
         ret.value.argument.type = 'Literal';
         ret.value.argument.value = null;
